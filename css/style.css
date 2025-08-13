@@ -1,0 +1,151 @@
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f2f6fa;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #0a2647;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  flex: 1 1 45%;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #0a2647;
+}
+
+/* Productos */
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-producto {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-producto img {
+  max-width: 100%;
+  border-radius: 5px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-producto h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.card-producto p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.card-producto button {
+  background-color: #0a2647;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-producto button:hover {
+  background-color: #144272;
+}
+
+/* Carrito */
+#carrito-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7eef7;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+}
+
+.item-carrito button {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-carrito button:hover {
+  background-color: #c9302c;
+}
+
+.total {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+#vaciar-carrito {
+  margin-top: 0.5rem;
+  background-color: #999;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#vaciar-carrito:hover {
+  background-color: #777;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #0a2647;
+  color: #fff;
+}
