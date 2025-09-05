@@ -23,7 +23,7 @@ Este simulador web representa una tienda de ropa y artículos deportivos orienta
 
 Este trabajo simula una tienda digital de manera profesional, utilizando buenas prácticas de estructura, legibilidad y escalabilidad en el código. La estética visual está inspirada en la marca **Éxodo Academy**, y el simulador está preparado para integrarse en futuras etapas del proyecto completo.
 
-Esta entrega cierra el ciclo del curso de Desarrollo Web, demostrando el uso completo de:
+Esta entrega contiene el uso de:
 - HTML + CSS
 - JavaScript + DOM
 - Funciones reutilizables
