@@ -141,6 +141,19 @@ h2 {
 #vaciar-carrito:hover {
   background-color: #777;
 }
+#finalizar-compra {
+  margin-top: 0.5rem;
+  background-color: #198754;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#finalizar-compra:hover {
+  background-color: #157347;
+}
 
 footer {
   text-align: center;
